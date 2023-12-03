@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="h-screen flex justify-center items-center">
+    <div class="flex mx-auto w-[600px] shadow-lg rounded-2xl">
+      <div class="grid md:grid-cols-2 grid-cols-1 w-full">
+        <div class="bg-[#6441fd] rounded-2xl w-full">
+          <div class="text-center font-semibold p-5 text-[#c9befd] text-[18px]">
+            Your Result
+          </div>
+          <div class="bg-gradient-to-b from-[#4a24cf] mx-auto w-[50%] p-9 leading-[1.2] text-center font-bold rounded-full mt-5">
+            <div class="text-[53px] text-white">76</div>
+            <div class="text-[12px] text-[#c9befd]">of 100</div>
+          </div>
+          <div class="text-white text-[25px] text-center font-semibold mt-7">
+            Great
+          </div>
+          <div class="text-center text-[#c9befd] text-[14px] px-12 font-medium mt-3 mb-8">
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
+        </div>
+        <div class="py-5 px-8 rounded-r-2xl">
+          <div class="text-black text-[20px] font-semibold">
+            Summary
+          </div>
+          <div class="py-5 font-semibold">
+            <div class="flex rounded-xl bg-[#f8f3f3] p-3 px-5 mb-3">
+              <div class="flex">
+                <img class="pr-2" src="assets/images/icon-reaction.svg">
+                <span class="text-[#FF5555]">
+                  Reaction
+                </span>
+              </div>
+              <div class="flex justify-end text-[#a5a2a9] w-full">
+                  <span class="text-black pr-1">80</span> / 100
+              </div>
+            </div>
+            <div class="flex rounded-xl bg-[#f8f3f3] p-3 px-5 mb-3">
+              <div class="flex">
+                <img class="pr-2" src="assets/images/icon-memory.svg">
+                <span class="text-[#FFB21E]">
+                  Memory
+                </span>
+              </div>
+              <div class="flex justify-end text-[#a5a2a9] w-full">
+                  <span class="text-black pr-1">92</span> / 100
+              </div>
+            </div>
+            <div class="flex rounded-xl bg-[#f8f3f3] p-3 px-5 mb-3">
+              <div class="flex">
+                <img class="pr-2" src="assets/images/icon-verbal.svg">
+                <span class="text-[#00BB8F]">
+                  Verbal
+                </span>
+              </div>
+              <div class="flex justify-end text-[#a5a2a9] w-full">
+                  <span class="text-black pr-1">61</span> / 100
+              </div>
+            </div>
+            <div class="flex rounded-xl bg-[#f8f3f3] p-3 px-5 mb-3">
+              <div class="flex">
+                <img class="pr-2" src="assets/images/icon-visual.svg">
+                <span class="text-[#1125D6]">
+                  Visual
+                </span>
+              </div>
+              <div class="flex justify-end text-[#a5a2a9] w-full">
+                  <span class="text-black pr-1">72</span> / 100
+              </div>
+            </div>
+          </div>
+          <button class="rounded-full p-3 text-white font-semibold bg-[#303b59] w-full">
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Umar Farooq</a>.
+  </div>
+</body>
+</html>
